@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    display: grid;
+    grid-template-columns: 15vw 84vw;
+    grid-template-rows: 100px auto 100px;
+    grid-gap: 10px;
+    background: #F8F8FF;
+}
+header
+{
+    grid-column: 1/2;
+}
