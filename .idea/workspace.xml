@@ -20,13 +20,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79a103fb-301c-4a4f-96c1-813d9ef57511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/begiin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/IndexController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/controller/Controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Question.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Questions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Quiz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/QuizEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Wen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Wenti.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Wentis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/model/Zhanshi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/view/QuizView.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       <change beforePath="$PROJECT_DIR$/css/html.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/html.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+>>>>>>> master
+=======
+      <change beforePath="$PROJECT_DIR$/begiin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Toets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/html.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/html.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/IndexController.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/IndexController.js" afterDir="false" />
 >>>>>>> master
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,13 +81,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\js" />
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
+      <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\vb" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
       <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
-      <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\vb" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,9 +129,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1600800700637">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1600851851155">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600800700637" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600851851155" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1600855323364">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600855323364" />
   </component>
 </project>
