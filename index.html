@@ -1,55 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Mac Donald</title>
+    <title>Rekentoets</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html.css"/>
 </head>
 
 <body>
-<div class="macdonald">
+<div class="Quiz">
     <header>
-        <h1>Mac Donald</h1>
-        <div  class="big" id="label1">Selecteer je drinken</div>
+        <h1>Reken toets</h1>
     </header>
-
     <hr>
-    <div id="content">
-        <img class="image" src="images/sinas.jpg"/>
-        <div  id="p1" class="item">Sinas</div>
-        <button id="btn1" class="button ">select</button>
+    <main>
 
-        <img class="image" src="images/cassis.jpg"/>
-        <div  id="p2" class="item">Cassis</div>
-        <button id="btn2" class="button ">select</button>
-
-        <img class="image" src="images/7up.jpg"/>
-        <div  id="p3" class="item">7up</div>
-        <button id="btn3" class="button ">select</button>
-
-        <img class="image" src="images/icetea.jpg"/>
-        <div  id="p4" class="item">Ice Tea</div>
-        <button id="btn4" class="button ">select</button>
-
-        <img class="image" src="images/cola.jpg"/>
-        <div  id="p5" class="item">Cola</div>
-        <button id="btn5" class="button">select</button>
-
-    </div>
-    <div id="inleveren">
-        <span id="keuze">Maak een keuze </span>
-    </div>
-
+     <section id="login" class="loginSection">
+         <form id="loginForm">
+         <h3>Naam: </h3>  <input type="text" name="name"  id="name"  placeholder="username">
+         <h3>Number: </h3>  <input type="password" name="password" id="password" placeholder="number"><br>
+         <button class="button" >Start</button>
+         </form>
+         <p id="errorText"></p>
+     </section>
+    </main>
 
 
     <footer>
         <hr>
-        <p id="copyright">Team AO</p>
+        <p id="copyright">Team Xavier</p>
         <div id="school">ROC Mondriaan</div>
     </footer>
 </div>
 
-<script type="module" src="js/startNoMVC.js"></script>
+<script type="module" src="js/IndexController.js"></script>
 </body>
 </html>
