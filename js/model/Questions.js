@@ -1,11 +1,11 @@
 export default  [
 {
-	"question": "Schrijf het antowoord",
-	"option1" : "10x8+2=",
-	"option2": "3-3x10=",
-	"option3": "5+19-9=",
-	"option4": "1+1+1=",
-	"answer": 3
+	"question": "Web pages are designed using?",
+	"option1" : "HTML",
+	"option2": "CSS",
+	"option3": "Javascript",
+	"option4": "Jquery",
+	"answer": 2
 },
 {
 	"question": "____ makes websites dynamic",
@@ -13,7 +13,7 @@ export default  [
 	"option2": "HTML",
 	"option3": "Javascript",
 	"option4": "Bootstrap",
-	"answer": "50"
+	"answer": 3
 },
 {
 	"question": "What is HTML used for?",

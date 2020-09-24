@@ -1,4 +1,4 @@
-import {QuizEvent} from "../model/QuizEvent.js"
+import {QuizEvent} from "../"
 export class QuizView {
     constructor(quiz) {
         this.quiz = quiz;
