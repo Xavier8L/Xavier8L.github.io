@@ -1,4 +1,5 @@
-import {QuizEvent} from "../"
+import {QuizEvent} from "../model/QuizEvent.js"
+
 export class QuizView {
     constructor(quiz) {
         this.quiz = quiz;
@@ -30,7 +31,7 @@ export class QuizView {
     }
 
     bindChoiceButton(handler) {
-        this.choices = document.querySelectorAll("#num1, #num2, #num3, #num4");
+        this.choices = document.querySelectorAll("#btn1, #btn2, #btn3, #btn4");
         this.choices.forEach(element => element.addEventListener('click', event => {
 
             handler(element.id);
@@ -46,24 +47,24 @@ export class QuizView {
 
 
     showQuestion(currentQuestion) {
-        const question = this.getElement('#vragen');
+        const question = this.getElement('#vraag');
         question.innerHTML = currentQuestion.getQuestionID() + ". " + currentQuestion.getQuestion();
 
-        this.getElement('#vraag1').innerHTML = currentQuestion.getOptions()[0];
-        this.getElement('#vraag2').innerHTML = currentQuestion.getOptions()[1];
-        this.getElement('#vraag3').innerHTML = currentQuestion.getOptions()[2];
-        this.getElement('#vraag4').innerHTML = currentQuestion.getOptions()[3];
-        //
-        // this.getElement('#btn1').setAttribute('style', 'background-color:#e6f3ff');
-        // this.getElement('#btn2').setAttribute('style', 'background-color:#e6f3ff');
-        // this.getElement('#btn3').setAttribute('style', 'background-color:#e6f3ff');
-        // this.getElement('#btn4').setAttribute('style', 'background-color:#e6f3ff');
+        this.getElement('#option1').innerHTML = currentQuestion.getOptions()[0];
+        this.getElement('#option2').innerHTML = currentQuestion.getOptions()[1];
+        this.getElement('#option3').innerHTML = currentQuestion.getOptions()[2];
+        this.getElement('#option4').innerHTML = currentQuestion.getOptions()[3];
 
-        //
-        // if (currentQuestion.getGivenAnswer() != -1) {
-        //     let id = '#btn' + currentQuestion.getGivenAnswer();
-        //     this.getElement(id).setAttribute('style', 'background-color:#99ceff')
-        // }
+        this.getElement('#btn1').setAttribute('style', 'background-color:#e6f3ff');
+        this.getElement('#btn2').setAttribute('style', 'background-color:#e6f3ff');
+        this.getElement('#btn3').setAttribute('style', 'background-color:#e6f3ff');
+        this.getElement('#btn4').setAttribute('style', 'background-color:#e6f3ff');
+
+
+        if (currentQuestion.getGivenAnswer() != -1) {
+            let id = '#btn' + currentQuestion.getGivenAnswer();
+            this.getElement(id).setAttribute('style', 'background-color:#99ceff')
+        }
 
     }
 

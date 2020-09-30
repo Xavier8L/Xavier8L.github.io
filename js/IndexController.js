@@ -15,8 +15,8 @@ class IndexController{
 
         console.log(loginMis);
         let onSubmit = function() {
-            var name = document.getElementById("name").value;
-            var password = document.getElementById("number").value;
+            const name = document.getElementById("name").value;
+            const password = document.getElementById("number").value;
 
             if (name === correctUsername && password === correctPassword) {
                 window.location.href = "Toets.html";
