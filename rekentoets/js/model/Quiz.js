@@ -14,6 +14,7 @@ export class Quiz extends EventTarget {
     setPreviousQuestion() {
         this.currentIndex--;
         this._commit();
+
     }
 
     setNextQuestion() {
