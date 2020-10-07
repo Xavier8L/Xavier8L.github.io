@@ -4,43 +4,47 @@
     <title>4 op een rij</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/html.css"/>
+    <link rel="stylesheet" type="text/css" href="css/start.css"/>
 </head>
 
-<body>
-<div class="Quiz">
+<body onload="beginSpel();">
     <header>
-
+    <h1>Vier op een rij</h1>
     </header>
     <hr>
-    <button id="resetButton">Reset</button>
+    <div id="gameboard"></div>
+    <table id="game_table">
+        <thead>
+        <tr> <!-- Deze knoppen laten de muntjes vallen-->
+            <td><button onclick="laatVallen(0);">Kies</button></td>
+            <td><button onclick="laatVallen(1);">Kies</button></td>
+            <td><button onclick="laatVallen(2);">Kies</button></td>
+            <td><button onclick="laatVallen(3);">Kies</button></td>
+            <td><button onclick="laatVallen(4);">Kies</button></td>
+            <td><button onclick="laatVallen(5);">Kies</button></td>
+            <td><button onclick="laatVallen(6);">Kies</button></td>
+        </tr>
+        </thead>
+        <script>
+            for (var rij=0; rij<=5; rij++) {
+                document.writeln("<tr>");
+                for (var kolom=0; kolom<=6; kolom++) {
+                    document.writeln("<td id='square_" + rij + "_"+ kolom +"' class='board_square'></td>");
+                }
+                document.writeln("</tr>");
+            }
+        </script>
+    </table>
 
-
-    <div class="statistics">
-        <h2 id="speler1"></h2>
-        <br>
-        <h2>Winsten: 0</h2>
-        <br>
-        <h2 id="speler2"></h2>
-        <br>
-        <h2>Winsten: 0</h2>
+    <div id="game_status">
     </div>
-
-    <div class="container"id="cont">
-    </div>
-    <div id="messageWindow">
-
-    </div>
-    <script src="js/b.js"></script>
-
-
 
     <footer>
         <hr>
         <p id="copyright">Team Xavier</p>
         <div id="school">ROC Mondriaan</div>
     </footer>
-</div>
+
 
 <script type="module" src="js/model.js"></script>
 </body>

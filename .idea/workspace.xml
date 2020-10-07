@@ -19,17 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="">
+    <list default="true" id="79a103fb-301c-4a4f-96c1-813d9ef57511" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rekentoets/vb2/engine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rekentoets/vb2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rekentoets/vb2/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/html.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/html.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ExportToHTMLSettings">
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../Xavier8L.github.io\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,29 +45,46 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1iHCoMJlZ7BFXc7gsSAUvIDZTis" />
+  <component name="ProjectId" id="1hdg5kEjptNFR7sszJEDf23uCFD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rekentoets/vb2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\rekentoets\vb2" />
+      <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\js" />
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
+      <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\vb" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="" />
-      <created>1601555303905</created>
+      <changelist id="79a103fb-301c-4a4f-96c1-813d9ef57511" name="Default Changelist" comment="" />
+      <created>1600346201575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1601555303905</updated>
-      <workItem from="1601555304983" duration="1942000" />
-      <workItem from="1602053319289" duration="8986000" />
-      <workItem from="1602064780242" duration="1176000" />
+      <updated>1600346201575</updated>
+      <workItem from="1600346202640" duration="1340000" />
+      <workItem from="1600795265820" duration="5886000" />
+      <workItem from="1602096084444" duration="527000" />
+      <workItem from="1602100167217" duration="2129000" />
     </task>
     <servers />
   </component>
@@ -82,10 +103,18 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1602064664395">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602096603845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602096603845" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600851851155" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1600855323364">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602064664395" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600855323364" />
   </component>
 </project>
