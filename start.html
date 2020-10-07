@@ -17,10 +17,36 @@
         </form>
     </header>
     <hr>
-    <main>
+    <div><h1>Beurt: geen idee</h1></div>
+    <button id="resetButton">Reset</button>
+    <form>
+        <h3>Typ hier de namen in!</h3>
+        <label for="pName1" class="pName1">Player 1:</label>
+        <input type="text" id="pName1" required placeholder="speler1">
+        <br>
+        <label for="pName2" class="pName2">Player 2:</label>
+        <input type="text" id="pName2" required placeholder="speler2">
+        <br>
+        <button id="startButton" >Start</button>
+    </form>
 
+    <div class="statistics">
+        <h2 id="speler1"></h2>
+        <br>
+        <h2>Winsten: 0</h2>
+        <br>
+        <h2 id="speler2"></h2>
+        <br>
+        <h2>Winsten: 0</h2>
+    </div>
 
-    </main>
+    <div class="container"id="cont">
+    </div>
+    <div id="messageWindow">
+        [Voorbeeld]
+    </div>
+    <script src="js/b.js"></script>
+
 
 
     <footer>
@@ -30,6 +56,6 @@
     </footer>
 </div>
 
-<script type="module" src="js/IndexController.js"></script>
+<script type="module" src="js/model.js"></script>
 </body>
 </html>

@@ -23,13 +23,7 @@
     padding: 2px 50px 50px 50px;
 
 }
-main {
-    height: auto;
-    width: auto;
-    border: 2px solid cornflowerblue;
-    background-color: white;
 
-}
 header > h1 {
     text-align: center;
     font-size: 60px;
@@ -68,7 +62,17 @@ input
     border-radius: 75px;
 }
 
+table
+{
+    border-collapse: inherit;
+    border:2px solid black;
+}
+td
+{
+    border:1px solid black;
+    width:25px;
 
+}
 
 
 
@@ -127,14 +131,6 @@ input>.number
     font-size: 30px;
 }
 
-#errorText {
-    color: rgb(182, 0, 0);
-}
-
-input.rodeBorder
-{
-    border: 3px solid red;
-}
 
 
 html {
