@@ -20,11 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/start.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rekentoets/vb2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rekentoets/vb2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/Toets.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/css/html.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/css/quiz.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/IndexController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/controller/Controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/model/Question.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/model/Questions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/model/Quiz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/model/QuizEvent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/js/view/QuizView.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/vb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/vb2/engine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/vb2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/vb2/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +70,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -74,7 +90,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="79a103fb-301c-4a4f-96c1-813d9ef57511" name="Default Changelist" comment="" />
+      <changelist id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="" />
       <created>1600346201575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -83,6 +99,7 @@
       <workItem from="1600795265820" duration="5886000" />
       <workItem from="1602096084444" duration="527000" />
       <workItem from="1602100167217" duration="2129000" />
+      <workItem from="1602183089817" duration="65000" />
     </task>
     <servers />
   </component>
@@ -105,10 +122,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602096603845">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602183153771">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602096603845" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602183153771" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600851851155" />
     <state x="361" y="0" width="1575" height="733" key="dock-window-1" timestamp="1602145736320">
       <screen x="0" y="0" width="1920" height="1040" />

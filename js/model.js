@@ -5,47 +5,7 @@ var kleurSpeler = [];
 kleurSpeler[1] = "rood";
 kleurSpeler[2] = "geel";
 
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+0);
-            id.addEventListener("click", event => laatVallen(0));
-        }
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+1);
-            id.addEventListener("click", event => laatVallen(1));
-        }
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+2);
-            id.addEventListener("click", event => laatVallen(2));
-        }
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+3);
-            id.addEventListener("click", event => laatVallen(3));
-        }
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+4);
-            id.addEventListener("click", event => laatVallen(4));
-        }
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+5);
-            id.addEventListener("click", event => laatVallen(5));
-        }
-    for (rij=5; rij>=0; rij--)
-        {
-            let id=document.getElementById('square_'+rij+'_'+6);
-            id.addEventListener("click", event => laatVallen(6));
-        }
-
-
 function beginSpel() {
-    if (spelActief == true) {
-        return false;
-    }
 
     spelActief = true;
     for (rij=0; rij<=5; rij++) {
@@ -60,6 +20,38 @@ function beginSpel() {
     actieveSpeler = 1;
     kiesDeBeurt();
 }
+
+
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 0);
+            id.addEventListener("click", event => laatVallen(0));
+        }
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 1);
+            id.addEventListener("click", event => laatVallen(1));
+        }
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 2);
+            id.addEventListener("click", event => laatVallen(2));
+        }
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 3);
+            id.addEventListener("click", event => laatVallen(3));
+        }
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 4);
+            id.addEventListener("click", event => laatVallen(4));
+        }
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 5);
+            id.addEventListener("click", event => laatVallen(5));
+        }
+        for (rij = 5; rij >= 0; rij--) {
+            let id = document.getElementById('square_' + rij + '_' + 6);
+            id.addEventListener("click", event => laatVallen(6));
+        }
+
+
 
 function tekenSpelBord() {
     controleerWinnaar();
@@ -132,33 +124,45 @@ function controleerWinnaar() {
 }
 
 /* Functie stopSpel zorgt er voor dat het spel niet verder gaat als een speler gewonnen heeft */
+let gi =document.getElementById('game_info');
 function stopSpel(spelerGewonnen) {
     spelActief = false;
-    document.getElementById('game_info').innerHTML = "De winnaar is: Speler " + spelerGewonnen;
+    gi.innerHTML = "De winnaar is: Speler " + spelerGewonnen;
+    console.log(spelActief);
 }
 
 /* Functie kiesDeBeurt laat zien welke speler aan de beurt is */
 function kiesDeBeurt() {
     if (spelActief) {
-        document.getElementById('game_info').innerHTML = "Het is de beurt aan: Speler " + actieveSpeler + " <span class='player"+actieveSpeler+"'>(" + kleurSpeler[actieveSpeler] + ")</span>";
+        if (actieveSpeler == 1) {
+            gi.innerHTML="Het is de beurt aan: Speler "+ actieveSpeler + " <span class='player"+actieveSpeler+"'>(" + kleurSpeler[actieveSpeler] + ")</span>";
+        } else if(actieveSpeler == 2) {
+            gi.innerHTML="Het is de beurt aan: Speler "+ actieveSpeler + " <span class='player"+actieveSpeler+"'>(" + kleurSpeler[actieveSpeler] + ")</span>";
+        }else
+            {
+                gi.innerHTML="Welkom to spel!";
+            }
+
+        // document.getElementById('game_info').innerHTML = "Het is de beurt aan: Speler " + actieveSpeler + " <span class='player"+actieveSpeler+"'>(" + kleurSpeler[actieveSpeler] + ")</span>";
     }
 }
 
 /* Functie laatVallen kiest het eerste beschikbare vakje vanaf onder gerekend */
 function laatVallen (kolom) {
+    if (spelActief) {
+        for (rij = 5; rij >= 0; rij--) {
+            if (spelBord[rij][kolom] == 0) {
+                spelBord[rij][kolom] = actieveSpeler;
+                tekenSpelBord();
+                if (actieveSpeler == 1) {
+                    actieveSpeler = 2;
+                } else {
+                    actieveSpeler = 1;
+                }
 
-    for (rij=5; rij>=0; rij--) {
-        if (spelBord[rij][kolom] == 0) {
-            spelBord[rij][kolom] = actieveSpeler;
-            tekenSpelBord();
-            if (actieveSpeler == 1) {
-                actieveSpeler = 2;
-            } else {
-                actieveSpeler = 1;
+                kiesDeBeurt();
+                return true;
             }
-
-            kiesDeBeurt();
-            return true;
         }
     }
 }

@@ -36,6 +36,7 @@ table
     width :780px;
     height: 670px;
     justify-self: center;
+    background: blue;
 }
 
 header > h1 {
@@ -91,9 +92,7 @@ header > h1 {
     background-color: yellow;
 }
 
-table { background-color: blue;
 
-}
 
 #school {
     float: right;
@@ -109,6 +108,14 @@ hr {
     border: 2px solid #8c8c8c;
 }
 
+#game_info
+{
+    grid-column: auto;
+    grid-row:auto;
+    justify-self: center;
+    margin-top: 200px;
+    font-size: 60px;
+}
 
 
 #school {
