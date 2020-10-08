@@ -27,12 +27,10 @@ main
 {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
 }
 table
 {
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 2/2;
     width :780px;
     height: 670px;
     justify-self: center;
@@ -50,17 +48,19 @@ header > h1 {
 }
 #begin_spel
 {
-    grid-column: 2/3;
-    padding: 20px 0px 20px 0;
-    margin: 20px 0px 20px 0;
+    grid-column: 3/3;
+    padding: 12px 0px 20px 0;
+    margin: 200px 0px 20px 0;
     justify-self: center;
     font-size: 60px;
-    background-color: #e6f3ff;
+    background-color: orangered;
     width: 250px;
-    height: 200px;
+    height: 100px;
     border: 1.5px solid #339cff;
     border-radius: 75px;
+    color: ghostwhite;
 }
+
 
 .click_button {
     height: 42px;
@@ -94,15 +94,6 @@ header > h1 {
 
 
 
-#school {
-    float: right;
-    font-size: 30px;
-}
-
-#copyright {
-    float: left;
-    font-size: 30px;
-}
 
 hr {
     border: 2px solid #8c8c8c;
@@ -110,11 +101,9 @@ hr {
 
 #game_info
 {
-    grid-column: auto;
-    grid-row:auto;
-    justify-self: center;
-    margin-top: 200px;
+    justify-self: left;
     font-size: 60px;
+
 }
 
 
