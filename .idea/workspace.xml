@@ -19,15 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79a103fb-301c-4a4f-96c1-813d9ef57511" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekentoets/vb2/engine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekentoets/vb2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rekentoets/vb2/style.css" afterDir="false" />
+    <list default="true" id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/html.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/html.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/start.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rekentoets/vb2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rekentoets/vb2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/start.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,20 +54,21 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rekentoets/vb2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
-      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Xavier8L.github.io" />
       <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\rekentoets\vb2" />
       <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\js" />
       <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
       <recent name="D:\Xavier\javaopdracht\Xavier8L.github.io\vb" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io\js" />
+      <recent name="C:\Users\User\WebstormProjects\Xavier8L.github.io" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -112,9 +110,13 @@
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602096603845" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600851851155" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1600855323364">
+    <state x="361" y="0" width="1575" height="733" key="dock-window-1" timestamp="1602145736320">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1600855323364" />
+    <state x="361" y="0" width="1575" height="733" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602145736320" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-2" timestamp="1602145736320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-2/0.0.1920.1040@0.0.1920.1040" timestamp="1602145736320" />
   </component>
 </project>

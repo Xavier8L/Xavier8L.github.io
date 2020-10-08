@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vier op een rij</title>
+    <link rel="stylesheet" href='css/start.css'><link>
+
+</head>
+
+<body onload="beginSpel();">
+<header>
+    <h1>Vier op een rij</h1>
+</header>
+<hr>
+<button id="begin_spel" onclick="beginSpel();">Nieuw spel</button>
+<br>
+<div id="game_info">
+    <br>
+</div>
+<table id="game_table">
+    <thead>
+    <tr> <!-- Deze knoppen laten de muntjes vallen-->
+        <td><button onclick="laatVallen(0);">Kies</button></td>
+        <td><button onclick="laatVallen(1);">Kies</button></td>
+        <td><button onclick="laatVallen(2);">Kies</button></td>
+        <td><button onclick="laatVallen(3);">Kies</button></td>
+        <td><button onclick="laatVallen(4);">Kies</button></td>
+        <td><button onclick="laatVallen(5);">Kies</button></td>
+        <td><button onclick="laatVallen(6);">Kies</button></td>
+    </tr>
+    </thead>
+    <script>
+        for (var rij=0; rij<=5; rij++) {
+            document.writeln("<tr>");
+            for (var kolom=0; kolom<=6; kolom++) {
+                document.writeln("<td id='square_" + rij + "_"+ kolom +"' class='board_square'></td>");
+            }
+            document.writeln("</tr>");
+        }
+    </script>
+</table>
+
+</div>
+
+</body>
+
+<script src="js/model.js"></script>
+
+</html>

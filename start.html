@@ -12,40 +12,41 @@
     <h1>Vier op een rij</h1>
     </header>
     <hr>
-    <div id="gameboard"></div>
+    <main>
+
+    <br>
+
+    <div id="game_info">
+    </div>
+        <br>
     <table id="game_table">
-        <thead>
-        <tr> <!-- Deze knoppen laten de muntjes vallen-->
-            <td><button onclick="laatVallen(0);">Kies</button></td>
-            <td><button onclick="laatVallen(1);">Kies</button></td>
-            <td><button onclick="laatVallen(2);">Kies</button></td>
-            <td><button onclick="laatVallen(3);">Kies</button></td>
-            <td><button onclick="laatVallen(4);">Kies</button></td>
-            <td><button onclick="laatVallen(5);">Kies</button></td>
-            <td><button onclick="laatVallen(6);">Kies</button></td>
-        </tr>
-        </thead>
+
+
         <script>
+            var y =[];
             for (var rij=0; rij<=5; rij++) {
                 document.writeln("<tr>");
                 for (var kolom=0; kolom<=6; kolom++) {
-                    document.writeln("<td id='square_" + rij + "_"+ kolom +"' class='board_square'></td>");
+                    document.writeln("<td id='square_" + rij + "_"+ kolom +"' class='board_square''></td>" );
+
                 }
                 document.writeln("</tr>");
             }
+            console.log(kolom,rij);
         </script>
+
     </table>
+        <button id="begin_spel" onclick="beginSpel();">Nieuw spel</button>
 
-    <div id="game_status">
     </div>
-
+    </main>
     <footer>
         <hr>
         <p id="copyright">Team Xavier</p>
         <div id="school">ROC Mondriaan</div>
     </footer>
 
-
-<script type="module" src="js/model.js"></script>
 </body>
+<script  src="js/model.js"></script>
+
 </html>

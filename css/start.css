@@ -23,6 +23,20 @@ Body{
     padding: 2px 50px 50px 50px;
 
 }
+main
+{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+table
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width :780px;
+    height: 670px;
+    justify-self: center;
+}
 
 header > h1 {
     text-align: center;
@@ -33,8 +47,21 @@ header > h1 {
     margin: 20px 10px 20px 10px;
     padding: 2px 0px;
 }
+#begin_spel
+{
+    grid-column: 2/3;
+    padding: 20px 0px 20px 0;
+    margin: 20px 0px 20px 0;
+    justify-self: center;
+    font-size: 60px;
+    background-color: #e6f3ff;
+    width: 250px;
+    height: 200px;
+    border: 1.5px solid #339cff;
+    border-radius: 75px;
+}
 
-click_button {
+.click_button {
     height: 42px;
     width: 42px;
     border-radius: 24px;
@@ -43,10 +70,10 @@ click_button {
 }
 
 .piece {
-    height: 32px;
-    width: 32px;
+    height: 100px;
+    width: 100px;
     display:block;
-    border-radius: 16px;
+    border-radius: 70px;
     margin-left: auto;
     margin-right: auto;
 }
