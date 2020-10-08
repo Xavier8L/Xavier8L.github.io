@@ -22,7 +22,7 @@ class IndexController{
             document.getElementById("naam1").innerHTML = naam1;
             console.log(naam1);
             document.getElementById("naam2").innerHTML = document.getElementById("name2").value;
-            window.location.href = "start.html";
+            window.location.href = "index.html";
 
 
         }
