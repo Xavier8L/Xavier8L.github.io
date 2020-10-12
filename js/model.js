@@ -1,4 +1,5 @@
 
+
 var spelActief = false;
 var actieveSpeler = 0;
 var spelBord = [];
@@ -6,7 +7,18 @@ var kleurSpeler = [];
 kleurSpeler[1] = "rood";
 kleurSpeler[2] = "geel";
 
-
+let gt = document.getElementById("game_table");
+for (var rij = 0; rij <= 5; rij++) {
+    var tr = document.createElement('tr');
+    tr.id = 'tr' + rij;
+    gt.appendChild(tr);
+    for (var kolom = 0; kolom <= 6; kolom++) {
+        var td = document.createElement("td");
+        td.id = 'square_' + rij + '_' + kolom;
+        td.className = 'board_square';
+        tr.appendChild(td);
+    }
+}
 
 
 var btnStartGame = document.querySelector('#begin_spel');
@@ -135,7 +147,6 @@ let gi =document.getElementById('game_info');
 function stopSpel(spelerGewonnen) {
     spelActief = false;
     gi.innerHTML = "De winnaar is: Speler " + spelerGewonnen;
-    console.log(spelActief);
 }
 
 /*  laat zien welke speler aan de beurt is */

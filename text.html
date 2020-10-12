@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        font-style: italic;
+    }
+
+
+    #bordContainer {
+        margin-left: 26%;
+    }
+
+    .container {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        width: 45em;
+        min-width: 45em;
+        min-height: 38em;
+        height: 38em;
+        border: black 4px solid;
+        background-color: rgb(0, 68, 253);
+        margin: 1em;
+    }
+    .items {
+        width: 5.5em;
+        min-width: 5.5em;
+        margin: 0.4em;
+        border-radius: 100%;
+        border: black 0.1em solid;
+        text-align: center;
+        background-color: white;
+        position: relative;
+    }
+
+
+</style>
+<body>
+
+
+<div id="bordContainer">
+    <div class="container"id="ds">
+    </div>
+
+<script>
+    // this.ds = document.getElementById("ds");
+    // for(let i = 0; i < 42; i++) {
+    //     this.backside = document.createElement("div");
+    //     this.backside.className = 'items'+i;
+    //     this.backside.id='square'+ i;
+    //     this.ds.appendChild(this.backside);
+    // }
+
+
+        let ds = document.getElementById("ds");
+        for (var rij=0; rij<=5; rij++)
+        {
+                this.tr=document.createElement("tr");
+                this.tr.id='tr'+rij;
+                ds.appendChild(tr);
+                for (var kolom = 0; kolom <= 6; kolom++) {
+                    this.td=document.createElement("td");
+                    this.td.id='square_'+ rij + '_' + kolom ;
+                    this.td.className='board_square';
+                    tr.appendChild(td);
+                }
+            }
+
+</script>
+
+</body>
+</html>
