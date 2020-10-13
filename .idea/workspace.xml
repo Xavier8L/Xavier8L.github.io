@@ -20,15 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/Controller/Controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/Model/Model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/View/View.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foto/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/start.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/start.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/GameModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Controller/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Controller/Controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/Model/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Model/Model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/View/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/View/View.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vb" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -91,7 +93,8 @@
       <workItem from="1602183712450" duration="841000" />
       <workItem from="1602184758967" duration="874000" />
       <workItem from="1602349777313" duration="16000" />
-      <workItem from="1602509208301" duration="11665000" />
+      <workItem from="1602509208301" duration="11920000" />
+      <workItem from="1602590080048" duration="18804000" />
     </task>
     <servers />
   </component>
@@ -118,10 +121,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="526" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1602519294234" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602519669872">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1602596762210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602519669872" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602596762210" />
     <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600851851155" />
     <state x="361" y="0" width="1575" height="733" key="dock-window-1" timestamp="1602145736320">
       <screen x="0" y="0" width="1920" height="1040" />

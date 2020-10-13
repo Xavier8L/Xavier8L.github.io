@@ -14,12 +14,11 @@
 }
 
 Body{
-    background-color: white;
+    background:url("../foto/background.jpg")  no-repeat ;
+    background-size: cover;
     height: auto;
     width: auto;
     margin: 30px auto;
-    border-radius: 40px;
-    box-shadow: 5px 7px 5px 5px rgba(0,26,51,0.5);
     padding: 2px 50px 50px 50px;
 
 }
@@ -40,6 +39,7 @@ table
 header > h1 {
     text-align: center;
     font-size: 60px;
+    text-shadow: 0px 0px 30px red;
     background-color: black ;
     color: whitesmoke;
     border-radius: 40px;
@@ -92,7 +92,28 @@ header > h1 {
     background-color: yellow;
 }
 
-
+#winner
+{
+    height: 50px;
+    border: 10px solid transparent;
+    border-radius: 30px;
+    animation-name: design;
+    animation-duration: 14s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+    @keyframes design
+    {
+        0%  {background-color: red;}
+        15% {background-color: orange;}
+        30% {background-color: yellow;}
+        45% {background-color: green;}
+        60% {background-color: lightblue;}
+        75% {background-color: blue;}
+        90% {background-color: blueviolet;}
+        100%  {background-color: red;}
+    }
 
 
 hr {
@@ -108,17 +129,24 @@ hr {
 
 
 #school {
+
     float: right;
     font-size: 30px;
+    padding-right: 30px;
 }
 
 #copyright {
+
     float: left;
+    padding-left: 30px;
     font-size: 30px;
 }
 
-
-
-html {
-    background-color: #e6e6e6;
+footer
+{
+    color:whitesmoke;
+    background: black;
+    height: 30px;
+    border-radius: 40px;
+    box-shadow: 5px 7px 5px 5px black;
 }
