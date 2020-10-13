@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09eae158-c4dc-496e-bb4a-bf917285f427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foto/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/start.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/start.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/start.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Controller/Controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Controller/Controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/Model/Model.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/Model/Model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/View/View.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/View/View.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/model.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +86,8 @@
       <workItem from="1602184758967" duration="874000" />
       <workItem from="1602349777313" duration="16000" />
       <workItem from="1602509208301" duration="11920000" />
-      <workItem from="1602590080048" duration="18804000" />
+      <workItem from="1602590080048" duration="18899000" />
+      <workItem from="1602615512415" duration="597000" />
     </task>
     <servers />
   </component>
